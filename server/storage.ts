@@ -1,20 +1,20 @@
-import { type User, type InsertUser } from "@shared/schema";
+import { type User, type InsertUser, type ContactForm } from "@shared/schema";
 import { randomUUID } from "crypto";
-
-// modify the interface with any CRUD methods
-// you might need
 
 export interface IStorage {
   getUser(id: string): Promise<User | undefined>;
   getUserByUsername(username: string): Promise<User | undefined>;
   createUser(user: InsertUser): Promise<User>;
+  saveContactForm(form: ContactForm): Promise<void>;
 }
 
 export class MemStorage implements IStorage {
   private users: Map<string, User>;
+  private contactForms: ContactForm[];
 
   constructor() {
     this.users = new Map();
+    this.contactForms = [];
   }
 
   async getUser(id: string): Promise<User | undefined> {
@@ -32,6 +32,10 @@ export class MemStorage implements IStorage {
     const user: User = { ...insertUser, id };
     this.users.set(id, user);
     return user;
+  }
+
+  async saveContactForm(form: ContactForm): Promise<void> {
+    this.contactForms.push(form);
   }
 }
 
