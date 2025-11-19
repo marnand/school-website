@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import studentsCollaborating from "@assets/generated_images/Students_collaborating_in_classroom_b4665452.png";
-import techClassroom from "@assets/generated_images/Technology_integrated_classroom_65225a45.png";
-import teacherStudent from "@assets/generated_images/Teacher_giving_individual_attention_b4faa4c0.png";
-import robotics from "@assets/generated_images/Students_working_on_robotics_b0918abe.png";
-import schoolBuilding from "@assets/generated_images/School_building_exterior_3ff2fbe3.png";
+
+const studentsCollaborating = "/images/Students_collaborating_in_classroom_b4665452.png";
+const techClassroom = "/images/Technology_integrated_classroom_65225a45.png";
+const teacherStudent = "/images/Teacher_giving_individual_attention_b4faa4c0.png";
+const robotics = "/images/Students_working_on_robotics_b0918abe.png";
+const schoolBuilding = "/images/School_building_exterior_3ff2fbe3.png";
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);

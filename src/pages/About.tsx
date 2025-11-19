@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Eye, Target, Users } from "lucide-react";
-import schoolImage from "@assets/generated_images/School_building_exterior_3ff2fbe3.png";
+
+const schoolImage = "/images/School_building_exterior_3ff2fbe3.png";
 
 export default function About() {
   const values = [

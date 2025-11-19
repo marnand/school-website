@@ -5,12 +5,22 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { contactFormSchema, type ContactForm } from "@shared/schema";
+import { z } from "zod";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
 import { MapPin, Phone, Mail, Clock, MessageSquare } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
+
+const contactFormSchema = z.object({
+  name: z.string().min(3, "Nome deve ter pelo menos 3 caracteres"),
+  email: z.string().email("Email inválido"),
+  phone: z.string().min(10, "Telefone deve ter pelo menos 10 dígitos"),
+  childAge: z.string().optional(),
+  message: z.string().min(10, "Mensagem deve ter pelo menos 10 caracteres"),
+});
+
+type ContactForm = z.infer<typeof contactFormSchema>;
 
 export default function Contact() {
   const { toast } = useToast();

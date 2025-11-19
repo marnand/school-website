@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Laptop, Cpu, Leaf, Code, Brain, Smartphone } from "lucide-react";
-import roboticsImage from "@assets/generated_images/Students_working_on_robotics_b0918abe.png";
+
+const roboticsImage = "/images/Students_working_on_robotics_b0918abe.png";
 
 export default function Innovation() {
   const technologies = [

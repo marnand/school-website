@@ -3,11 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Heart, Users, Sparkles, GraduationCap, ArrowRight } from "lucide-react";
-import heroImage from "@assets/generated_images/Students_collaborating_in_classroom_b4665452.png";
-import teacherImage from "@assets/generated_images/Teacher_giving_individual_attention_b4faa4c0.png";
-import parent1 from "@assets/generated_images/Parent_testimonial_portrait_1_51f7cb88.png";
-import parent2 from "@assets/generated_images/Parent_testimonial_portrait_2_f9be5ce5.png";
-import studentImage from "@assets/generated_images/Student_testimonial_portrait_7e7ee09b.png";
+
+const heroImage = "/images/Students_collaborating_in_classroom_b4665452.png";
+const teacherImage = "/images/Teacher_giving_individual_attention_b4faa4c0.png";
+const parent1 = "/images/Parent_testimonial_portrait_1_51f7cb88.png";
+const parent2 = "/images/Parent_testimonial_portrait_2_f9be5ce5.png";
+const studentImage = "/images/Student_testimonial_portrait_7e7ee09b.png";
 
 export default function Home() {
   const differentials = [
