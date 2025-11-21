@@ -38,19 +38,7 @@ export default function Courses() {
         "Orientação vocacional inicial",
         "Desenvolvimento de pesquisa científica",
       ],
-    },
-    {
-      icon: GraduationCap,
-      title: "Ensino Médio",
-      age: "1ª a 3ª série",
-      description: "Preparação para vestibulares e ENEM, com foco no desenvolvimento de competências para o ensino superior e a vida profissional.",
-      highlights: [
-        "Preparação para ENEM e vestibulares",
-        "Orientação profissional completa",
-        "Projetos de pesquisa avançados",
-        "Simulados e aulas de aprofundamento",
-      ],
-    },
+    }
   ];
 
   const extracurricular = [
@@ -108,7 +96,7 @@ export default function Courses() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-muted/30">
+      {/* <section className="py-16 md:py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-display text-3xl sm:text-4xl font-bold mb-4">
@@ -133,7 +121,7 @@ export default function Courses() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -62,19 +62,19 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Endereço",
-      content: "Rua da Educação, 123 - Centro\nSão Paulo, SP - CEP 01000-000",
+      content: "Rua 02 qd 36 nº 51 – Cohatrac II\nSão Luis, MA - CEP 65054-262",
     },
     {
       icon: Phone,
       title: "Telefone",
-      content: "(11) 1234-5678",
-      link: "tel:+551112345678",
+      content: "(98) 3238-5167",
+      link: "tel:+559832385167",
     },
     {
       icon: Mail,
       title: "Email",
-      content: "contato@sagradocoracao.edu.br",
-      link: "mailto:contato@sagradocoracao.edu.br",
+      content: "colegio.cscj@gmail.com",
+      link: "mailto:colegio.cscj@gmail.com",
     },
     {
       icon: Clock,
@@ -255,10 +255,11 @@ export default function Contact() {
                     Como Chegar
                   </CardTitle>
                 </CardHeader>
+
                 <CardContent>
                   <div className="aspect-video rounded-lg overflow-hidden bg-muted">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0978!2d-46.6333!3d-23.5505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzAxLjgiUyA0NsKwMzgnMDAuMCJX!5e0!3m2!1sen!2sbr!4v1234567890"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7971.819544581387!2d-44.20629182624332!3d-2.5363212382675298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f691cb13c52b4b%3A0x1c1ae472634dee5b!2zQ29sw6lnaW8gU2FncmFkbyBDb3Jhw6fDo28gZGUgSmVzdXMgLSBTw6NvIEx1w61zLCBNYQ!5e0!3m2!1spt-BR!2sus!4v1763748205542!5m2!1spt-BR!2sus"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}

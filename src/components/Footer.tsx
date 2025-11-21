@@ -76,7 +76,6 @@ export function Footer() {
               <li className="text-muted-foreground">Educação Infantil</li>
               <li className="text-muted-foreground">Ensino Fundamental I</li>
               <li className="text-muted-foreground">Ensino Fundamental II</li>
-              <li className="text-muted-foreground">Ensino Médio</li>
             </ul>
           </div>
 
@@ -86,20 +85,20 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-muted-foreground mt-0.5 flex-shrink-0" />
                 <span className="text-muted-foreground">
-                  Rua da Educação, 123<br />
-                  Centro - São Paulo, SP
+                  Rua 02 qd 36 nº 51 <br />
+                  Cohatrac II - São Luis, MA
                 </span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-muted-foreground flex-shrink-0" />
-                <a href="tel:+551112345678" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="link-phone">
-                  (11) 1234-5678
+                <a href="tel:+559832385167" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="link-phone">
+                  (98) 3238-5167
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-muted-foreground flex-shrink-0" />
-                <a href="mailto:contato@sagradocoracao.edu.br" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="link-email">
-                  contato@sagradocoracao.edu.br
+                <a href="mailto:colegio.cscj@gmail.com " className="text-muted-foreground hover:text-foreground transition-colors" data-testid="link-email">
+                  colegio.cscj@gmail.com
                 </a>
               </li>
             </ul>

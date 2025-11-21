@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 export function Header() {
   const [location] = useLocation();
@@ -18,17 +19,13 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b">
+    <header className={cn("sticky top-0 z-50 w-full bg-background/95",
+      "backdrop-blur supports-[backdrop-filter]:bg-background/80 border-b")}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between gap-4">
           <Link href="/" className="flex items-center space-x-2" data-testid="link-home">
             <div className="flex flex-col">
-              <span className="font-display text-lg sm:text-xl font-semibold text-primary">
-                Colégio Sagrado
-              </span>
-              <span className="font-display text-xs sm:text-sm text-muted-foreground -mt-1">
-                Coração de Jesus
-              </span>
+              <img src="/logo.png" alt="Colégio Sagrado Coração de Jesus" />
             </div>
           </Link>
 
@@ -48,7 +45,7 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-2">
-            <Link href="/contato" className="hidden sm:block">
+            <Link href="/contato" className="hidden lg:block">
               <Button size="default" data-testid="button-agendar-visita">
                 Agende uma Visita
               </Button>
