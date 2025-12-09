@@ -92,7 +92,7 @@ export default function Contact() {
               Entre em Contato
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground">
-              Estamos prontos para receber você e sua família. Agende uma visita ou tire suas dúvidas!
+              Venha visitar-nos, agendar uma conversa ou tirar suas dúvidas. Teremos prazer em acolher sua família.
             </p>
           </div>
         </div>
@@ -103,10 +103,10 @@ export default function Contact() {
           <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
               <h2 className="font-display text-3xl font-bold mb-6">
-                Agende uma Visita
+                Quer conhecer nosso colégio de perto?
               </h2>
               <p className="text-muted-foreground mb-8">
-                Preencha o formulário abaixo e nossa equipe entrará em contato para agendar sua visita e apresentar nossa proposta pedagógica.
+                Preencha o formulário e nós entraremos em contato em até 48 h. Aqui, não vendemos vagas — oferecemos acolhimento, transparência e cuidado com cada decisão.
               </p>
 
               <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
@@ -188,7 +188,7 @@ export default function Contact() {
                   disabled={contactMutation.isPending || form.formState.isSubmitting}
                   data-testid="button-submit-contact"
                 >
-                  {(contactMutation.isPending || form.formState.isSubmitting) ? "Enviando..." : "Enviar Mensagem"}
+                  {(contactMutation.isPending || form.formState.isSubmitting) ? "Enviando..." : "Solicite mais informações"}
                   {!(contactMutation.isPending || form.formState.isSubmitting) && (
                     <MessageSquare className="ml-2 h-4 w-4" />
                   )}

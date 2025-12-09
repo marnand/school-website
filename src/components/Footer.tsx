@@ -11,7 +11,7 @@ export function Footer() {
               Colégio Sagrado Coração de Jesus
             </h3>
             <p className="text-sm text-muted-foreground">
-              Muito mais que ensino: acolhimento, cuidado e desenvolvimento integral.
+              Estamos aqui para acolher sua família. Transparência, cuidado e proximidade — sempre.
             </p>
             <div className="flex gap-3">
               <a
@@ -54,7 +54,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/sobre" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-sobre">
-                  Sobre Nós
+                  Quem Somos
                 </Link>
               </li>
               <li>
@@ -63,8 +63,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/cursos" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-cursos">
-                  Cursos
+                <Link href="/galeria" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-galeria">
+                  Galeria
+                </Link>
+              </li>
+              <li>
+                <Link href="/contato" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="link-footer-contato">
+                  Contato
                 </Link>
               </li>
             </ul>

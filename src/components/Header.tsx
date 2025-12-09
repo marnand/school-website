@@ -10,10 +10,8 @@ export function Header() {
 
   const navItems = [
     { path: "/", label: "Início" },
-    { path: "/sobre", label: "Sobre Nós" },
+    { path: "/sobre", label: "Quem Somos" },
     { path: "/proposta", label: "Proposta Pedagógica" },
-    { path: "/cursos", label: "Cursos" },
-    { path: "/inovacao", label: "Inovação" },
     { path: "/galeria", label: "Galeria" },
     { path: "/contato", label: "Contato" },
   ];

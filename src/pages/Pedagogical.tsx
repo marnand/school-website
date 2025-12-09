@@ -47,7 +47,7 @@ export default function Pedagogical() {
               Proposta Pedagógica
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground">
-              Uma educação que integra tradição e inovação para formar cidadãos preparados para os desafios do século XXI
+              Formação integral: para a vida, não só para provas
             </p>
           </div>
         </div>
@@ -61,10 +61,10 @@ export default function Pedagogical() {
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Nossa proposta pedagógica está fundamentada na crença de que cada aluno possui um potencial único a ser desenvolvido. Combinamos metodologias comprovadas com práticas inovadoras para criar um ambiente de aprendizagem estimulante, acolhedor e desafiador.
+                Nossa proposta pedagógica une formação intelectual, humana e cidadã. Com turmas reduzidas, valorizamos o ritmo individual de cada aluno e incentivamos o desenvolvimento do pensamento crítico, da empatia e do respeito ao outro.
               </p>
               <p>
-                Valorizamos o desenvolvimento integral do estudante, trabalhando não apenas o conhecimento acadêmico, mas também competências socioemocionais, valores éticos e habilidades para a vida. Nossa equipe pedagógica está constantemente se atualizando para oferecer o que há de melhor em educação.
+                Trabalhamos por meio de projetos interdisciplinares, vivências de convivência cidadã e estímulo à criatividade, preparando nossos alunos não apenas para exames, mas para decisões conscientes, participação comunitária e escolhas éticas.
               </p>
             </div>
           </div>
@@ -90,13 +90,13 @@ export default function Pedagogical() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-display text-3xl sm:text-4xl font-bold mb-6">
-                Personalização da Aprendizagem
+                Turmas Reduzidas e Atenção Individual
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Acreditamos que cada aluno aprende de forma diferente e em seu próprio ritmo. Por isso, oferecemos acompanhamento individualizado e estratégias diferenciadas de ensino.
+                Com turmas reduzidas, cada aluno recebe atenção personalizada. Nossos professores conhecem profundamente cada estudante, suas dificuldades, potencialidades e sonhos.
               </p>
               <p className="text-lg text-muted-foreground mb-6">
-                Nossos professores utilizam recursos variados, desde tecnologias educacionais até atividades práticas, garantindo que cada estudante possa desenvolver todo seu potencial de forma plena e respeitosa.
+                Esse acompanhamento próximo permite que identifiquemos rapidamente necessidades específicas e ajustemos nossa abordagem, garantindo que ninguém fique para trás e todos possam brilhar.
               </p>
               <p className="text-lg text-muted-foreground">
                 O resultado é uma educação verdadeiramente humanizada, que forma não apenas bons alunos, mas pessoas preparadas para a vida.

@@ -8,17 +8,17 @@ export default function About() {
     {
       icon: Heart,
       title: "Missão",
-      description: "Promover uma educação de excelência, baseada em valores humanos e cristãos, desenvolvendo integralmente nossos alunos para que se tornem cidadãos éticos, responsáveis e preparados para transformar a sociedade.",
+      description: "Formar cidadãos conscientes, comprometidos com o bem, com valores, responsabilidade social e convívio humano. Educar com afeto, simplicidade e respeito à individualidade, para que cada aluno descubra seu potencial e sua vocação.",
     },
     {
       icon: Eye,
       title: "Visão",
-      description: "Ser referência em educação humanizada e inovadora, reconhecida pela formação de indivíduos autônomos, críticos e comprometidos com o bem comum.",
+      description: "Ser referência em educação humanista e católica na nossa comunidade — um colégio onde cada aluno se sinta acolhido, protagonista de sua própria história, preparado para os desafios da vida com ética, empatia e competência.",
     },
     {
       icon: Target,
-      title: "Valores",
-      description: "Amor, respeito, ética, excelência, inovação, responsabilidade social, fé e compromisso com o desenvolvimento integral de cada aluno.",
+      title: "Propósito",
+      description: "Construir, junto às famílias, uma comunidade educativa que vá além de notas e provas — que forme corações, fortaleça relações humanas e prepare cidadãos capazes de amar, respeitar e contribuir para um mundo melhor.",
     },
   ];
 
@@ -33,10 +33,10 @@ export default function About() {
         
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">
-            Sobre Nós
+            Quem Somos
           </h1>
           <p className="text-lg sm:text-xl text-white/95 max-w-2xl mx-auto">
-            Tradição, fé e inovação educando juntos há décadas
+            Uma comunidade onde cada aluno é conhecido pelo nome
           </p>
         </div>
       </section>
@@ -49,16 +49,13 @@ export default function About() {
             </h2>
             <div className="prose prose-lg max-w-none space-y-4 text-muted-foreground">
               <p>
-                O Colégio Sagrado Coração de Jesus foi fundado com o propósito de oferecer uma educação que formasse não apenas estudantes brilhantes, mas seres humanos completos, éticos e preparados para enfrentar os desafios da vida com coragem e compaixão.
+                No Colégio Sagrado Coração de Jesus, acreditamos que a educação vai além de conteúdos — trata-se de formar pessoas com consciência, empatia e responsabilidade. Somos uma comunidade acolhedora, onde cada criança e adolescente é vista como única: com nome, com história, com sonhos.
               </p>
               <p>
-                Ao longo de nossa trajetória, mantivemos firme nosso compromisso com os valores cristãos e humanistas, ao mesmo tempo em que abraçamos a inovação e a tecnologia como ferramentas essenciais para preparar nossos alunos para o futuro.
+                Nossa estrutura humana e pedagógica permite que professores e colaboradores acompanhem o crescimento de cada aluno de perto, respeitando suas particularidades. Aqui, famílias e escola caminham juntas, construindo valores como solidariedade, respeito mútuo e cidadania.
               </p>
               <p>
-                Hoje, somos orgulhosamente reconhecidos como uma instituição que une o melhor da tradição educacional com as práticas pedagógicas mais modernas, sempre colocando o aluno no centro de tudo o que fazemos.
-              </p>
-              <p>
-                Nossa comunidade escolar é formada por professores dedicados, famílias engajadas e alunos motivados, todos unidos pelo desejo de construir um mundo melhor através da educação.
+                Ao longo de nossa trajetória, mantivemos firme nosso compromisso com uma educação humanista, que equilibra tradição e inovação, sempre colocando o aluno no centro de tudo o que fazemos.
               </p>
             </div>
           </div>
@@ -69,10 +66,10 @@ export default function About() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-display text-3xl sm:text-4xl font-bold mb-4">
-              Missão, Visão e Valores
+              Missão, Visão e Propósito
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Os princípios que guiam nossa atuação educacional
+              Os princípios que guiam nossa atuação e definem quem somos
             </p>
           </div>
 

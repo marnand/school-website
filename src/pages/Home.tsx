@@ -14,23 +14,23 @@ export default function Home() {
   const differentials = [
     {
       icon: Heart,
-      title: "Atenção Individual",
-      description: "Cada aluno é único e recebe acompanhamento personalizado para seu desenvolvimento integral.",
+      title: "Acolhimento Individualizado",
+      description: "Cada aluno é visto, ouvido e acompanhado em sua singularidade. Aqui seu filho não é um número.",
     },
     {
       icon: Users,
-      title: "Valores Humanos",
-      description: "Educação baseada em princípios de respeito, empatia e responsabilidade social.",
+      title: "Turmas Reduzidas",
+      description: "Proximidade humana com espaço de atenção, cuidado e apoio constante para cada criança.",
     },
     {
       icon: Sparkles,
-      title: "Inovação e Criatividade",
-      description: "Cultura maker, atividades lúdicas, estimulando pensamento crítico, colaboração e expressão.",
+      title: "Formação Cidadã e Humana",
+      description: "Desenvolvemos empatia, responsabilidade social, respeito e convivência com valores sólidos.",
     },
     {
       icon: GraduationCap,
-      title: "Professores Comprometidos",
-      description: "Equipe dedicada e qualificada que inspira e motiva os alunos todos os dias.",
+      title: "Preparação para a Vida",
+      description: "Foco em protagonismo, ética, autonomia e bom convívio social — além das provas.",
     },
   ];
 
@@ -66,28 +66,28 @@ export default function Home() {
         
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Educar com amor,<br />formar para a vida
+            Mais do que ensino:<br />uma comunidade onde seu filho é conhecido pelo nome
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-white/95 mb-8 max-w-3xl mx-auto font-light">
-            Bem-vindo ao Colégio Sagrado Coração de Jesus — onde o cuidado, o carinho e o ensino caminham juntos.
+            Aqui, formamos mentes, corações e cidadãos — com carinho, atenção individual e turmas reduzidas.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-12 justify-center">
-            <Link href="/contato">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/proposta">
               <Button size="lg" className="text-lg px-6 py-4" data-testid="button-hero-agendar">
-                Agende uma Visita
+                Conheça nosso projeto
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
 
-            <Link href="/sobre">
+            <Link href="/contato">
               <Button
                 size="lg"
                 variant="outline"
                 className="text-lg px-6 py-4 bg-white/10 backdrop-blur-md border-white/30 text-white hover:bg-white/20"
                 data-testid="button-hero-conhecer"
               >
-                Conheça Nossa História
+                Agende uma visita
               </Button>
             </Link>
           </div>
@@ -98,10 +98,10 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              Nossos Diferenciais
+              Nossos Pilares
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              O que torna nossa escola especial e única no cuidado com cada aluno
+              Acolhemos cada aluno como pessoa, não como número. Preparamos para a vida — para escolhas conscientes, convivência com o outro e construção de um mundo mais humano.
             </p>
           </div>
 
@@ -134,17 +134,17 @@ export default function Home() {
             </div>
             <div className="order-1 md:order-2">
               <h2 className="font-display text-3xl sm:text-4xl font-bold mb-4">
-                Aprender com afeto, crescer com propósito
+                Quem Somos
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                No Colégio Sagrado Coração de Jesus, acreditamos que cada criança tem um potencial único a ser desenvolvido. Nossa missão é proporcionar uma educação que vai além do conhecimento acadêmico, formando cidadãos éticos, criativos e preparados para os desafios do futuro.
+                No Colégio Sagrado Coração de Jesus, acreditamos que a educação vai além de conteúdos — trata-se de formar pessoas com consciência, empatia e responsabilidade. Somos uma comunidade acolhedora, onde cada criança e adolescente é vista como única: com nome, com história, com sonhos.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                Combinamos métodos pedagógicos comprovados com inovação, sempre mantendo o cuidado e a atenção individual como nosso maior diferencial.
+                Nossa estrutura humana e pedagógica permite que professores e colaboradores acompanhem o crescimento de cada aluno de perto, respeitando suas particularidades. Aqui, famílias e escola caminham juntas, construindo valores como solidariedade, respeito mútuo e cidadania.
               </p>
               <Link href="/sobre">
                 <Button size="lg" variant="default" data-testid="button-saiba-mais-sobre">
-                  Saiba Mais Sobre Nós
+                  Conheça nossa história
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
@@ -189,10 +189,10 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Venha fazer parte da nossa família!
+            Quer conhecer nosso colégio de perto?
           </h2>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-95">
-            Agende uma visita e descubra uma escola onde cada aluno é único e tem todo o suporte para alcançar seu potencial máximo.
+            Venha visitar-nos, agendar uma conversa ou tirar suas dúvidas. Teremos prazer em acolher sua família.
           </p>
           <Link href="/contato">
             <Button
@@ -201,7 +201,7 @@ export default function Home() {
               className="text-lg px-6 py-4"
               data-testid="button-cta-agendar"
             >
-              Agende Sua Visita Agora
+              Agende uma visita
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </Link>
