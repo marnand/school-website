@@ -11,7 +11,7 @@ export function Footer() {
               Colégio Sagrado Coração de Jesus
             </h3>
             <p className="text-sm text-muted-foreground">
-              Educar com amor, formar para a vida. Tradição, fé e inovação educando juntos.
+              Muito mais que ensino: acolhimento, cuidado e desenvolvimento integral.
             </p>
             <div className="flex gap-3">
               <a

@@ -24,8 +24,8 @@ export default function Home() {
     },
     {
       icon: Sparkles,
-      title: "Tecnologia e Inovação",
-      description: "Ferramentas digitais modernas integradas ao processo de aprendizagem.",
+      title: "Inovação e Criatividade",
+      description: "Cultura maker, atividades lúdicas, estimulando pensamento crítico, colaboração e expressão.",
     },
     {
       icon: GraduationCap,
@@ -62,27 +62,29 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${heroImage})` }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/80 to-black/30" />
         
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             Educar com amor,<br />formar para a vida
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-white/95 mb-8 max-w-3xl mx-auto font-light">
-            Uma escola que une tradição, fé e inovação para oferecer educação humanizada e atenção individual a cada aluno
+            Bem-vindo ao Colégio Sagrado Coração de Jesus — onde o cuidado, o carinho e o ensino caminham juntos.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+          <div className="flex flex-col sm:flex-row gap-12 justify-center">
             <Link href="/contato">
-              <Button size="lg" className="text-lg px-8 py-6" data-testid="button-hero-agendar">
+              <Button size="lg" className="text-lg px-6 py-4" data-testid="button-hero-agendar">
                 Agende uma Visita
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
+
             <Link href="/sobre">
               <Button
                 size="lg"
                 variant="outline"
-                className="text-lg px-8 py-6 bg-white/10 backdrop-blur-md border-white/30 text-white hover:bg-white/20"
+                className="text-lg px-6 py-4 bg-white/10 backdrop-blur-md border-white/30 text-white hover:bg-white/20"
                 data-testid="button-hero-conhecer"
               >
                 Conheça Nossa História
@@ -138,7 +140,7 @@ export default function Home() {
                 No Colégio Sagrado Coração de Jesus, acreditamos que cada criança tem um potencial único a ser desenvolvido. Nossa missão é proporcionar uma educação que vai além do conhecimento acadêmico, formando cidadãos éticos, criativos e preparados para os desafios do futuro.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                Combinamos métodos pedagógicos comprovados com inovação tecnológica, sempre mantendo o cuidado e a atenção individual como nosso maior diferencial.
+                Combinamos métodos pedagógicos comprovados com inovação, sempre mantendo o cuidado e a atenção individual como nosso maior diferencial.
               </p>
               <Link href="/sobre">
                 <Button size="lg" variant="default" data-testid="button-saiba-mais-sobre">
@@ -196,7 +198,7 @@ export default function Home() {
             <Button
               size="lg"
               variant="secondary"
-              className="text-lg px-8 py-6"
+              className="text-lg px-6 py-4"
               data-testid="button-cta-agendar"
             >
               Agende Sua Visita Agora
