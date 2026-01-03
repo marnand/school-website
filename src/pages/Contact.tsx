@@ -109,7 +109,7 @@ export default function Contact() {
                 Preencha o formulário e nós entraremos em contato em até 48 h. Aqui, não vendemos vagas — oferecemos acolhimento, transparência e cuidado com cada decisão.
               </p>
 
-              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+              <form onSubmit={form.handleSubmit(onSubmit)} title="contato-cscj" className="space-y-4">
                 <div>
                   <Label htmlFor="name">Nome Completo *</Label>
                   <Input
@@ -197,7 +197,7 @@ export default function Contact() {
 
               <div className="mt-8">
                 <a
-                  href="https://wa.me/5511912345678"
+                  href="https://wa.me/559899699880 "
                   target="_blank"
                   rel="noopener noreferrer"
                   data-testid="link-whatsapp"

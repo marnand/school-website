@@ -14,7 +14,8 @@ export async function apiRequest(
   url: string,
   data?: unknown | undefined,
 ): Promise<Response> {
-  const fullUrl = url.startsWith('http') ? url : `${API_URL}${url}`;
+  // const fullUrl = url.startsWith('http') ? url : `${API_URL}${url}`;
+  const fullUrl = 'https://automacao-ikasa.onrender.com/webhook-test/form';
   
   const res = await fetch(fullUrl, {
     method,
