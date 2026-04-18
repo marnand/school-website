@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { BookOpen, Users2, Lightbulb, TrendingUp, CheckCircle2 } from "lucide-react";
 
-const techImage = "/images/Technology_integrated_classroom_65225a45.png";
+const techImage = "/turma.png";
 
 export default function Pedagogical() {
   const methods = [

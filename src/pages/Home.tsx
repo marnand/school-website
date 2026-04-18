@@ -4,11 +4,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Heart, Users, Sparkles, GraduationCap, ArrowRight } from "lucide-react";
 
-const heroImage = "/images/Students_collaborating_in_classroom_b4665452.png";
-const teacherImage = "/images/Teacher_giving_individual_attention_b4faa4c0.png";
-const parent1 = "/images/Parent_testimonial_portrait_1_51f7cb88.png";
-const parent2 = "/images/Parent_testimonial_portrait_2_f9be5ce5.png";
-const studentImage = "/images/Student_testimonial_portrait_7e7ee09b.png";
+const heroImage = "/hero.jpg";
+const teacherImage = "/quem-somos.png";
+const parent1 = "/images/testimonials/adriano-everton.jpg";
+const parent2 = "/images/testimonials/marcely-christina.jpg";
+const parent3 = "/images/testimonials/claudia-sorahya.jpg";
 
 export default function Home() {
   const differentials = [
@@ -36,22 +36,22 @@ export default function Home() {
 
   const testimonials = [
     {
-      name: "Maria Silva",
-      role: "Mãe de aluno do 5º ano",
+      name: "Adriano Everton",
+      role: "Pai de aluno",
       image: parent1,
-      content: "O cuidado e a atenção que meu filho recebe aqui são incomparáveis. Os professores conhecem cada criança profundamente e trabalham para seu desenvolvimento completo.",
+      content: "Melhor escola, professores super profissionais, educação de qualidade atendendo a todas as necessidades que hoje procuramos para colocar nossos pequenos. O Colégio Sagrado Coração de Jesus irá fazer a diferença no futuro do meu filho, isso tenho certeza.",
     },
     {
-      name: "Carlos Oliveira",
-      role: "Pai de aluna do 8º ano",
+      name: "Marcely Christina",
+      role: "Mãe de aluna",
       image: parent2,
-      content: "A combinação de tradição e inovação é perfeita. Minha filha ama aprender e se desenvolveu tanto academicamente quanto como pessoa.",
+      content: "Excelente escola, preocupada não só com a formação acadêmica mas a cidadã também! Amo a escola ! 🥰",
     },
     {
-      name: "Ana Costa",
-      role: "Aluna do 2º ano do Ensino Médio",
-      image: studentImage,
-      content: "Aqui me sinto acolhida e motivada a dar o meu melhor. Os professores são incríveis e sempre nos apoiam em nossos sonhos.",
+      name: "Claudia Sorahya",
+      role: "Mãe de aluno",
+      image: parent3,
+      content: "Escola pequena onde eles mantém organizada e com professores gabaritados. Trabalho realizado com amor e dedicação. Sou grata a escola por todo conhecimento e valores passado a meu filho. Indico a escola com toda certeza, não perde em nada  para escolas grandes.",
     },
   ];
 
@@ -59,7 +59,7 @@ export default function Home() {
     <div className="min-h-screen">
       <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-top"
           style={{ backgroundImage: `url(${heroImage})` }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/80 to-black/30" />
