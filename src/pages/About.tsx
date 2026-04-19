@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Eye, Target, Users } from "lucide-react";
 
-const schoolImage = "/recepcao.jpg";
+const schoolImage = "/fachada.jpg";
 
 export default function About() {
   const values = [
@@ -24,7 +24,7 @@ export default function About() {
 
   return (
     <div className="min-h-screen">
-      <section className="relative h-[50vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${schoolImage})` }}

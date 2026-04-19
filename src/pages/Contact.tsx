@@ -197,7 +197,7 @@ export default function Contact() {
 
               <div className="mt-8">
                 <a
-                  href="https://wa.me/559899699880 "
+                  href="https://wa.me/5598987031316"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-testid="link-whatsapp"

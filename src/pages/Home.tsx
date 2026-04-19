@@ -64,15 +64,15 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/80 to-black/30" />
         
-        <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-justify-center">
           <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Mais do que ensino:<br />uma comunidade onde seu filho é conhecido pelo nome
+            Mais do que ensino:<br />uma comunidade onde<br /> seu filho é conhecido<br /> pelo nome
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-white/95 mb-8 max-w-3xl mx-auto font-light">
+          <p className="text-lg sm:text-xl md:text-2xl text-white/95 mb-8 max-w-3xl font-light">
             Aqui, formamos mentes, corações e cidadãos — com carinho, atenção individual e turmas reduzidas.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-start">
             <Link href="/proposta">
               <Button size="lg" className="text-lg px-6 py-4" data-testid="button-hero-agendar">
                 Conheça nosso projeto

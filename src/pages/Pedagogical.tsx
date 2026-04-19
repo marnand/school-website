@@ -31,7 +31,6 @@ export default function Pedagogical() {
     "Currículo alinhado à BNCC com atividades complementares",
     "Aulas dinâmicas e interativas com recursos tecnológicos",
     "Desenvolvimento socioemocional integrado ao currículo",
-    "Preparação para ENEM e principais vestibulares",
     "Programa de monitoria e reforço escolar",
     "Projetos de leitura e escrita criativa",
     "Atividades culturais e artísticas",
